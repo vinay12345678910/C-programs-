@@ -12,9 +12,11 @@ int main()
         printf("student %d = %d\n",i+1,marks[i]);
         sum = sum + marks[i];
     }
+    
     printf("Sum = %d\n",sum);
-    float avg = (avg)sum / size;
+    
+    float avg = (float)sum / size;
     printf("Avg = %.2f\n",avg);
-    printf("value of i = %d",i);
+    
     return 0;
 }
